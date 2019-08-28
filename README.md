@@ -16,7 +16,7 @@ Project Files:
 
 ## Datasets
 
-The datasets image categories is found in [cat_to_name.json]  and flower images can be downloaded in the gziped tar file [flower_data.tar.gz] from Udacity.
+The datasets image categories is found in [cat_to_name.json]  [cat_to_name.json] and flower images can be downloaded in the gziped tar file [flower_data.tar.gz] from Udacity.
 
 
 
