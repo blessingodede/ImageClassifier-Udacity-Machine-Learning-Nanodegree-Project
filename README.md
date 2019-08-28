@@ -19,7 +19,47 @@ Project Files:
 The datasets image categories is found in  [cat to name.json] and flower images can be downloaded in the gziped tar file [flower_data.tar.gz] from Udacity.
 
 
+The dataset Image categories is found in [cat_to_name.json] and flower images can be downloaded from [flower_data.tar.gz] from Udacity.
+
+You can also download the flower images:
+
+```bash
+   https://s3.amazonaws.com/content.udacity-data.com/nd089/flower_data.tar.gz | tar xz
+```
+## Poject Implementation on Jupyter Notebook
+
+### [Image Classifier Project.ipynb]
+
+ Launch **Jupyter Notebook** from the project root to review  [Image Classifier Project.ipynb] notebook file
 
 
+## Example of Command line train.py
+
+Help:
+```
+python ./train.py -h
+
+```
+
+Training on **CPU** with  **vgg16** you can use:
+```
+python ./train.py ./flowers/train/
+```
+
+Training  on **GPU** 
+```
+python ./train.py ./flowers/train --gpu --learning_rate 0.001 --hidden_layers 3136 --epochs 5
+```
 
 
+## Example of Command line predict.py 
+
+Help
+```
+python ./predict.py -h
+```
+
+Make Prediction with gpu
+```
+python ./predict.py flowers/valid/10/image_07101.jpg my_checkpoint.pth --gpu
+```
