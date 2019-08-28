@@ -28,14 +28,15 @@ You can also download the flower images:
 ```
 ## Poject Implementation on Jupyter Notebook
 
-### [Image Classifier Project.ipynb]
+```Image Classifier Project.ipynb```
 
- Launch **Jupyter Notebook** from the project root to review  [Image Classifier Project.ipynb] notebook file
+ Launch **Jupyter Notebook** from the project root to review  ```Image Classifier Project.ipynb``` notebook file
 
 
 ## Example of Command line train.py
 
-Help:
+Help
+
 ```
 python ./train.py -h
 
@@ -55,6 +56,7 @@ python ./train.py ./flowers/train --gpu --learning_rate 0.001 --hidden_layers 31
 ## Example of Command line predict.py 
 
 Help
+
 ```
 python ./predict.py -h
 ```
